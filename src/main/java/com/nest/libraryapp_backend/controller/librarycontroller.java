@@ -31,5 +31,11 @@ public class librarycontroller {
         return " welcome to book entry page";
     }
 
+    @GetMapping("/view")
+    public String Bookview()
+    {
+        return " welcome to book view page";
+    }
+
 
 }
