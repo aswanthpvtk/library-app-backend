@@ -12,4 +12,12 @@ public class librarycontroller {
     {
         return " welcome to admin login page";
     }
+
+    @PostMapping("/userreg")
+    public String Userreg()
+    {
+        return " welcome to user reg page";
+    }
+
+
 }
