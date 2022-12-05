@@ -44,5 +44,11 @@ public class librarycontroller {
         return " welcome to book search page";
     }
 
+    @PostMapping("/delete")
+    public String Bookdelete()
+    {
+        return " welcome to book delete page";
+    }
+
 
 }
