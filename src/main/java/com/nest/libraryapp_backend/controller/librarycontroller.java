@@ -19,5 +19,11 @@ public class librarycontroller {
         return " welcome to user reg page";
     }
 
+    @PostMapping("/userlog")
+    public String Userlog()
+    {
+        return " welcome to user login page";
+    }
+
 
 }
