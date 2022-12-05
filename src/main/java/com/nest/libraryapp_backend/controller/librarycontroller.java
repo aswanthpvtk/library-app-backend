@@ -44,5 +44,11 @@ public class librarycontroller {
         return " welcome to book search page";
     }
 
+    @PostMapping("/edit")
+    public String Bookedit()
+    {
+        return " welcome to book edit page";
+    }
+
 
 }
